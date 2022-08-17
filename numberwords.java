@@ -6,7 +6,7 @@ class numberwords
         Scanner in =new Scanner(System.in);
         System.out.println("Enter the number (3-digit number )");
         int n=in.nextInt();
-        if(n<1 ||n>999) 
+        if(n<100 ||n>999) 
             System.out.println("Wrong Input,Sorry");
         else
         {
